@@ -5,6 +5,8 @@
 
 } */
 
+
+
 /* Shared styles */
 body {
   font-family: 'Open Sans', sans-serif;
@@ -20,14 +22,29 @@ body {
   padding: 17px 35px;
 }
 
+.section-tittle {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
 
 /* NAV STYLES */
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center; 
-
-
+  align-items: center;
+  margin: 0 150px;
 }
 
 nav>ul {
@@ -48,8 +65,9 @@ nav a {
 }
 
 .nav-tittle {
+  /*MEHRAB*/
   color: #181818;
-  font-size: 45px;
+  font-size: 48px;
   font-weight: 800;
 
 }
@@ -57,4 +75,101 @@ nav a {
 .orange {
   /* .text-primary{  */
   color: #FD6E0A;
+}
+
+
+/* header styles */
+header {
+  background: #FFF8F3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 700px 500px;
+
+}
+
+.banner {
+  /*Pic ta ke folow kre padding decide krbo*/
+  padding: 150px 30px 0 150px;
+  /*Aligning in one line with "MEAHRAB"*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.banner-content {
+  max-width: fit-content;
+}
+
+.banner .pic {
+  width: 550px;
+  height: 570px;
+}
+
+.banner-greet {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.banner-name {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.description {
+  max-width: 500px;
+  margin-top: 0px;
+
+}
+
+
+/* MAIN SECTION styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+
+/* About section */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #FFF8F3;
+  margin-top: 130px 0;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.info-tittle {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px auto 5px auto;
+  /* line-height: 30px;  */
+}
+
+.info-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px auto 0 auto;
+  /* line-height: 30px;  */
+}
+
+#what-i-do-description{
+  padding: 30px 150px ;
 }
