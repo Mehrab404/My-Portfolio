@@ -43,8 +43,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 0 150px;
+  margin: 0 40px; /*Change the laft-Right margin when doing the "Developer part"*/
 }
 
 nav>ul {
@@ -109,14 +108,14 @@ header {
 
 .banner-greet {
   color: #474747;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 0px;
 }
 
 .banner-name {
   color: #181818;
-  font-size: 85px;
+  font-size: 68px;
   font-weight: 700;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -170,6 +169,29 @@ main {
   /* line-height: 30px;  */
 }
 
-#what-i-do-description{
-  padding: 30px 150px ;
+
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+.skills-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.skill {
+  padding: 30px;
+  gap: 24px;
+}
+
+.skill-tittle {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
 }
