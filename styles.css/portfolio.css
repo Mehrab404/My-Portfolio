@@ -49,7 +49,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0px 40px; /*Change the laft-Right margin when doing the "Developer part"*/
+  margin: 0px 40px; /*Change the left-Right margin when doing the "Developer part"*/
 }
 
 nav>ul {
